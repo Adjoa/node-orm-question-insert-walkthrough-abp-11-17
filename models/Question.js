@@ -14,6 +14,10 @@ class Question{
     })
   }
 
+  static insert(){
+    
+  }
+  
   constructor(content){
     this.content = content
   }
