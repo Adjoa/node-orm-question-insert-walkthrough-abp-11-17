@@ -15,7 +15,9 @@ class Question{
   }
 
   insert(){
+    const self = this
     return new Promise(function(resolve){
+      const sql = `INSERT INTO questions (content) VALUES (?)`
       resolve("This is a resolution.")
     })
   }
