@@ -15,7 +15,9 @@ class Question{
   }
 
   insert(){
-
+    return new Promise(function(resolve){
+      resolve("This is a resolution.")
+    })
   }
 
   constructor(content){
