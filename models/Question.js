@@ -15,7 +15,7 @@ class Question{
   }
 
   function insert(){
-    
+
   }
 
   constructor(content){
