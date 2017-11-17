@@ -14,6 +14,10 @@ class Question{
     })
   }
 
+  constructor(content){
+    this.content = content
+  }
+
   insert(){
     const self = this
     return new Promise(function(resolve){
@@ -25,11 +29,6 @@ class Question{
       })
     })
   }
-
-  constructor(content){
-    this.content = content
-  }
-
 }
 
 module.exports = Question;
